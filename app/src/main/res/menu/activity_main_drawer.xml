@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/trends"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Trends" />
+        <item
+            android:id="@+id/unsplash_only"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Unplash only" />
+        <item
+            android:id="@+id/imgur_only"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Imgur only" />
+    </group>
+
+    <item android:title="Account" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/favorite"
+                    android:icon="@drawable/ic_favorite_black_24dp"
+                    android:title="Favorites" />
+                <item
+                    android:id="@+id/disconnect"
+                    android:icon="@android:drawable/ic_delete"
+                    android:title="Disconnect" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
